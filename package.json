@@ -4,11 +4,11 @@
     "displayName": "Chialisp Language",
     "icon": "images/chia.png",
     "description": "This is an unofficial Visual Studio Code extension that provides support for Chialisp.",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "author": "Rigidity",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Rigidity/vscode-chialisp.git"
+        "url": "https://github.com/Rigidity/vscode-chialisp"
     },
     "engines": {
         "vscode": "^1.59.0"
