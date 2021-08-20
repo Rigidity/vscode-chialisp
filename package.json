@@ -1,0 +1,37 @@
+{
+    "name": "chialisplanguage",
+    "publisher": "Rigidity",
+    "displayName": "Chialisp Language",
+    "description": "This is an unofficial Visual Studio Code extension that provides support for Chialisp.",
+    "version": "1.0.0",
+    "author": "Rigidity",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Rigidity/vscode-chialisp.git"
+    },
+    "engines": {
+        "vscode": "^1.59.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "chialisp",
+            "aliases": ["Chialisp", "chialisp"],
+            "extensions": [".clsp",".clib",".clvm"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "chialisp",
+            "scopeName": "source.chialisp",
+            "path": "./syntaxes/chialisp.tmLanguage.json"
+        }]
+    },
+    "keywords": ["vscode", "chia", "lisp", "chialisp", "code", "extension"],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Rigidity/vscode-chialisp/issues"
+    },
+    "homepage": "https://github.com/Rigidity/vscode-chialisp#readme"
+}
